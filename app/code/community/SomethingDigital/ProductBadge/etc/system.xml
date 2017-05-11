@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <catalog>
+            <groups>
+                <productbadge translate="label" module="sd_productbadge">
+                    <label>Product Badge Options</label>
+                    <show_in_default>1</show_in_default>
+                    <sort_order>1010</sort_order>
+                    <fields>
+                        <list translate="label comment">
+                            <label>List of available product badges</label>
+                            <frontend_model>sd_productbadge/adminhtml_product_badge</frontend_model>
+                            <backend_model>adminhtml/system_config_backend_serialized</backend_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Add pairs badge name - class name (for example: New - badge-new)</comment>
+                        </list>
+                    </fields>
+                </productbadge>
+            </groups>
+        </catalog>
+    </sections>
+</config>

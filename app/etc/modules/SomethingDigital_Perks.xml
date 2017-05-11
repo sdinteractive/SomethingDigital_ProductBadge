@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <SomethingDigital_Perks>
+      <active>true</active>
+      <codePool>local</codePool>
+      <depends>
+        <Mage_Customer />
+      </depends>
+    </SomethingDigital_Perks>
+  </modules>
+</config>

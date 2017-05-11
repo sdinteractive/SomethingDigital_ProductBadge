@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SomethingDigital_ProductBadge>
+            <version>0.0.1</version>
+        </SomethingDigital_ProductBadge>
+    </modules>
+    <global>
+        <blocks>
+            <sd_productbadge>
+                <class>SomethingDigital_ProductBadge_Block</class>
+            </sd_productbadge>
+        </blocks>
+        <helpers>
+            <sd_productbadge>
+                <class>SomethingDigital_ProductBadge_Helper</class>
+            </sd_productbadge>
+        </helpers>
+        <models>
+            <sd_productbadge>
+                <class>SomethingDigital_ProductBadge_Model</class>
+            </sd_productbadge>
+        </models>
+        <resources>
+            <sd_productbadge_setup>
+                <setup>
+                    <module>SomethingDigital_ProductBadge</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </sd_productbadge_setup>
+        </resources>
+    </global>
+    <default>
+        <catalog>
+            <productbadge>
+                <list><![CDATA[a:1:{s:5:"badge";a:8:{i:0;a:2:{s:4:"name";s:3:"New";s:5:"class";s:9:"badge-new";}i:1;a:2:{s:4:"name";s:9:"20% Off";s:5:"class";s:19:"badge-20percent-off";}i:2;a:2:{s:4:"name";s:9:"15% Off";s:5:"class";s:19:"badge-15percent-off";}i:3;a:2:{s:4:"name";s:9:"10% Off";s:5:"class";s:19:"badge-10percent-off";}i:4;a:2:{s:4:"name";s:8:"5% Off";s:5:"class";s:18:"badge-5percent-off";}i:5;a:2:{s:4:"name";s:13:"Best Seller";s:5:"class";s:17:"badge-best-seller";}i:6;a:2:{s:4:"name";s:11:"Recommended";s:5:"class";s:17:"badge-recommended";}i:7;a:2:{s:4:"name";s:15:"Special Offer";s:5:"class";s:19:"badge-special-offer";}}}]]></list>
+            </productbadge>
+        </catalog>
+    </default>
+    <frontend>
+        <layout>
+            <updates>
+                <sd_applycoupon module="SomethingDigital_ProductBadge">
+                    <file>sd_productbadge.xml</file>
+                </sd_applycoupon>
+            </updates>
+        </layout>
+    </frontend>
+</config>

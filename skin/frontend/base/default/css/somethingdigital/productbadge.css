@@ -1,0 +1,4 @@
+/* Hide unstyled badges */
+.product-badge:not([class*='badge--']) {
+  display: none;
+}

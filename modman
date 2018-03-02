@@ -1,0 +1,6 @@
+#SomethingDigital_ProductBadge
+app/code/community/SomethingDigital/ProductBadge
+app/design/frontend/base/default/template/catalog/product/list.phtml
+app/etc/modules/SomethingDigital_ProductBadge.xml
+app/design/frontend/base/default/layout/sd_productbadge.xml
+skin/frontend/base/default/css/somethingdigital/productbadge.css
